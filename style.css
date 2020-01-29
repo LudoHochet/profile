@@ -1,0 +1,116 @@
+body {
+  background-color: rgba(5, 8, 16, 0.9);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+h1, h2 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-weight: 300;
+}
+
+a{
+  text-decoration: none;
+  color: #e5cb52;
+}
+
+a:hover{
+  color: white;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-grey {
+  background-color: #30353A;
+  border-radius: 6px;
+  box-shadow: 0 10px 15px rgba(60,60,60,0.3);
+}
+
+.card-main {
+  padding: 50px 30px;
+  margin-top: 40px;
+  margin-bottom: 20px
+}
+
+.card-main p {
+  padding-top: 10px;
+  padding-bottom : 30px;
+}
+
+.card-footer{
+  padding: 10px;
+}
+.text-center{
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul.list-inline {
+    font-size: 31px;
+    padding: 0px;
+    margin: 5px;
+  }
+
+.list-inline li a {
+    padding: 10px;
+}
+
+
+a.yellow-btn {
+    color: white;
+    background-color: #e5cb52;
+    padding: 8px 30px;
+    border-radius: 5px
+  }
+
+a.yellow-btn:hover {
+  color: #e5cb52;
+  background-color: transparent;
+  border: 1px solid #e5cb52;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
